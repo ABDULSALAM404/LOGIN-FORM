@@ -1,0 +1,111 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.leftcontent{
+    background: rgb(253,29,29);
+    background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 0%);
+    height: 100vh;
+}
+.img-div{
+    position: relative;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+}
+.leftcontent .imgup{
+    position: absolute; 
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.leftcontent .imgup2{
+    position: absolute; 
+    color: #fff;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.text-danger {
+    margin-top: -15px;
+}
+.text-danger:hover {
+    cursor: pointer;
+} 
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    gap: 20px;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+.box .box1,
+.box .box2 {
+    border: 1px solid rgb(165, 163, 163);
+    height: 60px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px rgb(172, 172, 172);
+}
+.img-fluid{
+    height: 50px !important;
+}
+.box-content {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.face{
+    background-color: #4267B2;
+    color: #fff;
+}
+
+.or {
+    font-size: 25px;
+}
+
+.form-control:focus {
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    border: 2px solid orange !important;
+}
+.inputs .input-group{
+   position: relative;
+
+}
+.inputs .input-group i {
+    position: absolute;
+    padding: 10px;
+}
+.inputs .input-group #icon{
+    margin-left: 700px;
+}
+.inputs .input-group .failure-icon,
+.inputs .error
+{
+    color: red;
+}
+.inputs .input-group .success-icon{
+    color: green;
+}
+
+.inputs .input-group .success-icon,
+.inputs .input-group .failure-icon{
+    opacity: 0;
+
+}
+.inputs .error{
+    font-size: 16px;
+    margin-top: -15px;
+}
+
+@media (max-width: 900px) {
+    .leftcontent{
+        height: 750px;
+    }
+}
